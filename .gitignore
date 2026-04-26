@@ -1,0 +1,45 @@
+# ===== 密钥 / 敏感配置 =====
+ai_config.json
+.env
+.env.*
+!.env.example
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+backend/.venv/
+backend/venv/
+*.egg-info/
+
+# ===== 数据库 (运行时生成) =====
+*.db
+*.db-journal
+
+# ===== 后端日志 =====
+backend/_backend.log
+*.log
+
+# ===== Node.js =====
+node_modules/
+dist/
+dist-ssr/
+package-lock.json
+
+# ===== Rust / Tauri 编译产物 =====
+frontend/src-tauri/target/
+frontend/src-tauri/gen/schemas/
+
+# ===== IDE / 编辑器 =====
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,7 @@
+semantic-kernel
+azure-identity
+aiohttp
+aiohttp-sse2
+python-dotenv
+opentelemetry-api
+opentelemetry-sdk
